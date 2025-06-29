@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import icon from '../assets/icon.svg';
+import icon from '../assets/Icon.svg';
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
 import Button from './Button';

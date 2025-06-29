@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './Form';
-import illustration from '../assets/illustration.png';
+import illustration from '../assets/Illustration.png';
 
 const Contact = () => {
   return (

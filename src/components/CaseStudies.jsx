@@ -71,7 +71,7 @@
 
 import React from 'react';
 import arrow from '../assets/arrow.svg';
-import line from '../assets/line.png';
+import line from '../assets/Line.png';
 import { USE_CASES } from '../constants';
 
 const CaseStudies = () => {
