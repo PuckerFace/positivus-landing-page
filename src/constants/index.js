@@ -155,3 +155,80 @@ export const TESTIMONIALS = [
       'Positivus has been a game-changer for our business. Their team is innovative, strategic, and results-oriented. We have seen a significant increase in leads and sales since working with them.',
   },
 ];
+
+export const USE_CASES = [
+  {
+    id: 1,
+    description: `For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.`,
+  },
+  {
+    id: 2,
+    description: `For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.`,
+  },
+  {
+    id: 3,
+    description: `For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.`,
+  },
+];
+import search from '../assets/search.png';
+import advert from '../assets/advert.png';
+import media from '../assets/media.png';
+import email from '../assets/email.png';
+import content from '../assets/content.png';
+import analysis from '../assets/analysis.png';
+export const SERVICES = [
+  {
+    id: 1,
+    heading: 'Search Engine',
+    subHeading: 'optimization',
+    textColour: 'neon',
+    arrowColour: 'black',
+    bgColour: 'white-100',
+    img: search,
+  },
+  {
+    id: 2,
+    heading: 'Pay-per-click',
+    subHeading: 'advertising',
+    textColour: 'white-100',
+    arrowColour: 'black',
+    bgColour: 'neon',
+    img: advert,
+  },
+  {
+    id: 3,
+    heading: 'Social Media',
+    subHeading: 'Marketing',
+    textColour: 'white-100',
+    arrowColour: 'white',
+    bgColour: 'black-100',
+    img: media,
+  },
+  {
+    id: 4,
+    heading: 'Email',
+    subHeading: 'Marketing',
+    textColour: 'neon',
+    arrowColour: 'black',
+    bgColour: 'white-100',
+    img: email,
+  },
+  {
+    id: 5,
+    heading: 'Content',
+    subHeading: 'Creation',
+    textColour: 'white-100',
+    arrowColour: 'black',
+    bgColour: 'neon',
+    img: content,
+  },
+  {
+    id: 6,
+    heading: 'Analytics and ',
+    subHeading: 'Tracking',
+    textColour: 'neon',
+    arrowColour: 'white-100',
+    bgColour: 'black-100',
+    img: analysis,
+  },
+];

@@ -1,20 +1,28 @@
 import React from 'react';
 import ServiceCards from './ServiceCards';
-import search from '../assets/search.png';
-import advert from '../assets/advert.png';
-import media from '../assets/media.png';
-import email from '../assets/email.png';
-import content from '../assets/content.png';
-import analysis from '../assets/analysis.png';
+import { SERVICES } from '../constants';
 
 const Services = () => {
   return (
     <div
-      className="py-0 w-[1100px] flex flex-col items-center  justify-center  "
+      className="py-0 w-full flex flex-col items-center  justify-center  "
       id="services"
     >
       <div className="gap-[50px] 2xl:gap-[40px] items-center grid xl:grid-cols-2">
-        <ServiceCards
+        {SERVICES.map((service, index) => (
+          <ServiceCards
+            key={index}
+            bgColour={service.bgColour}
+            heading={service.heading}
+            subheading={service.subHeading}
+            textColour={service.textColour}
+            arrowColour={service.arrowColour}
+            img={service.img}
+            height={service.height}
+          />
+        ))}
+
+        {/* <ServiceCards
           bgColour={'white-100'}
           heading={'Search engine '}
           subheading={'optimization'}
@@ -61,7 +69,7 @@ const Services = () => {
           textColour="neon"
           arrowColour={'white'}
           img={analysis}
-        />
+        /> */}
       </div>
     </div>
     // <div className="py-0 2xl:px-[100px] px-[20px] 2xl:gap-[40px] justify-center items-center w-screen grid lg:grid-cols-2">
