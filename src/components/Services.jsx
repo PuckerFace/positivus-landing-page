@@ -9,7 +9,10 @@ import analysis from '../assets/analysis.png';
 
 const Services = () => {
   return (
-    <div className="py-0 w-[1100px] flex flex-col items-center  justify-center  ">
+    <div
+      className="py-0 w-[1100px] flex flex-col items-center  justify-center  "
+      id="services"
+    >
       <div className="gap-[50px] 2xl:gap-[40px] items-center grid xl:grid-cols-2">
         <ServiceCards
           bgColour={'white-100'}

@@ -17,13 +17,13 @@ const Navbar = () => {
           About us
         </a>
         <a
-          href="#"
+          href="#services"
           className="hover:bg-neon transition-colors ease-in-out duration-300"
         >
           Services
         </a>
         <a
-          href="#"
+          href="#use-cases"
           className="hover:bg-neon transition-colors ease-in-out duration-300"
         >
           Use Cases
@@ -44,7 +44,11 @@ const Navbar = () => {
         {/* <div className="flex py-[20px] px-[35px] items-start gap-[10px] rounded-[14px] border border-black-100">
           <p className="text-center ">Request a quote</p>
         </div> */}
-        <Button buttonType={'light'} buttonText={'Request a quote'}></Button>
+        <Button
+          buttonType={'light'}
+          buttonText={'Request a quote'}
+          link={'#contact'}
+        ></Button>
       </div>
     </nav>
   );

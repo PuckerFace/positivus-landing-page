@@ -3,7 +3,10 @@ import arrow from '../assets/arrow.svg';
 import line from '../assets/line.png';
 const CaseStudies = () => {
   return (
-    <div className="py-0 flex justify-center   px-[100px] items-center">
+    <div
+      className="py-0 flex justify-center   px-[100px] items-center"
+      id="use-cases"
+    >
       <div className="py-[70px] px-[60px] shrink-0 flex items-start justify-between rounded-[45px] shadow-[0px_5px_0px_#191A23] bg-black-100 gap-[64px] text-white-100  ">
         <div className="flex flex-col items-start gap-[20px] w-[286px] ">
           <p className="text-[18px] font-normal leading-normal ">

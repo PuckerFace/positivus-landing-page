@@ -2,6 +2,7 @@ import CaseStudies from './components/CaseStudies';
 import Companies from './components/Companies';
 import Contact from './components/Contact';
 import CTA from './components/CTA';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Headings from './components/Headings';
 import Navbar from './components/Navbar';
@@ -12,7 +13,7 @@ import WorkProcess from './components/WorkProcess';
 
 function App() {
   return (
-    <div className="flex flex-col gap-[100px] py-[30px] p-[60px] 2xl:p-[100px]">
+    <div className="flex flex-col gap-[100px] pt-[30px] px-[60px] 2xl:p-[100px]">
       <Navbar />
       <Header />
       <Companies />
@@ -57,6 +58,7 @@ function App() {
         width={'less'}
       />
       <Contact />
+      <Footer />
     </div>
   );
 }

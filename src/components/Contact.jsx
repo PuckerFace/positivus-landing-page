@@ -4,7 +4,10 @@ import illustration from '../assets/illustration.png';
 
 const Contact = () => {
   return (
-    <div className="bg-white-100 flex relative rounded-[45px] px-[80px] py-[60px] text-black-100 ">
+    <div
+      id="contact"
+      className="bg-white-100 flex relative rounded-[45px] px-[80px] py-[60px] text-black-100 "
+    >
       <Form />
       <img
         src={illustration}

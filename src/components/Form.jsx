@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 const Form = () => {
-  const [selectedReason, setSelectedReason] = React.useState('');
+  const [selectedReason, setSelectedReason] = React.useState('greet');
   return (
     <div className="gap-[40px] w-[550px] flex flex-col">
       <div className="flex gap-[20px]">
