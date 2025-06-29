@@ -27,7 +27,7 @@ const Footer = () => {
           <img src={twitter} alt="" />
         </div>
       </div>
-      <div className="flex lg:flex-row items-center sm:items-start flex-col justify-center lg:justify-between gap-[40px]">
+      <div className="flex xl:flex-row items-center sm:items-start flex-col justify-center lg:justify-between gap-[40px]">
         <div className="flex sm:items-start items-center   flex-col w-[400px] gap-6">
           <p className="text-[20px] w-fit px-2 font-medium text-black-100 rounded bg-neon ">
             Contact us:
@@ -40,7 +40,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row p-[20px] justify-center items-center gap-5 w-full md:w-1/2 bg-[#292A32] rounded-[14px] ">
+        <div className="flex flex-col md:flex-row p-[20px] justify-center items-center gap-5 w-full md:w-3/4 xl:w-1/2 bg-[#292A32] rounded-[14px] ">
           <div className="w-full">
             <input
               type="email"

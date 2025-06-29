@@ -16,7 +16,7 @@ const CTA = () => {
           </p>
           <Button buttonType={'dark'} buttonText={'Get your free proposal'} />
         </div>
-        <div className="z-1 absolute right-0 hidden lg:block ">
+        <div className="z-1 absolute right-0 hidden xl:block ">
           <img src={cta} alt="" />
         </div>
       </div>

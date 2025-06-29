@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="flex flex-col lg:flex-row w-full  py-0  lg:justify-between lg:items-start justify-center items-center">
       <div className="flex flex-col items-center   lg:items-start gap-[35px] ">
-        <div className="w-full text-[40px] md:text-[60px] text-center lg:text-left font-medium leading-normal text-black">
+        <div className="w-full text-[40px] md:text-[60px] font-medium leading-normal text-black">
           Navigating the digital landscape for success
         </div>
         <div className="lg:w-full w-[300px]  lg:hidden flex justify-center">

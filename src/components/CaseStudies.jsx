@@ -78,7 +78,7 @@ const CaseStudies = () => {
   return (
     <div className="flex justify-center  w-full  items-center" id="use-cases">
       {/* Mobile version */}
-      <div className="lg:hidden w-full pb-5 overflow-x-auto snap-x snap-mandatory overflow-y-hidden h-full">
+      <div className="xl:hidden w-full pb-5 overflow-x-auto snap-x snap-mandatory overflow-y-hidden h-full">
         <div className="flex flex-nowrap gap-[20px]">
           {USE_CASES.map((item, index) => (
             <div
@@ -98,7 +98,7 @@ const CaseStudies = () => {
       </div>
 
       {/* Desktop version */}
-      <div className="hidden lg:flex p-[50px] items-start justify-between rounded-[45px] shadow-[0px_5px_0px_#191A23] bg-black-100 gap-[64px] text-white-100">
+      <div className="hidden xl:flex p-[50px] items-start justify-between rounded-[45px] shadow-[0px_5px_0px_#191A23] bg-black-100 gap-[64px] text-white-100">
         {USE_CASES.map((item, index) => (
           <React.Fragment key={index}>
             <div className="flex flex-col items-start gap-[20px] w-fit">

@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={icon} alt="" className="w-9 h-9" width={36} height={36} />
         <h1 className="text-3xl font-bold">Positivus</h1>
       </div>
-      <div className="block lg:hidden ">
+      <div className="block xl:hidden ">
         <img
           src={menu}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -69,7 +69,7 @@ const Navbar = () => {
         />
       </div>
 
-      <div className="hidden lg:flex  items-center gap-6 xl:gap-[40px] justify-center text-[20px] font-normal leading-[28px]">
+      <div className="hidden xl:flex  items-center gap-5 xl:gap-[40px] justify-center text-[20px] font-normal leading-[28px]">
         <a
           href="#"
           className="hover:bg-neon transition-colors ease-in-out duration-300"
