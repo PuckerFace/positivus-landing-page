@@ -1,5 +1,6 @@
 import CaseStudies from './components/CaseStudies';
 import Companies from './components/Companies';
+import Contact from './components/Contact';
 import CTA from './components/CTA';
 import Header from './components/Header';
 import Headings from './components/Headings';
@@ -50,6 +51,12 @@ function App() {
         }
       />
       <Testimonial />
+      <Headings
+        heading={'Contact Us'}
+        subheading={`Connect with Us: Let's Discuss Your Digital Marketing Needs`}
+        width={'less'}
+      />
+      <Contact />
     </div>
   );
 }
