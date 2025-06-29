@@ -5,10 +5,13 @@ import Header from './components/Header';
 import Headings from './components/Headings';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+import Team from './components/Team';
+import Testimonial from './components/Testimonial';
+import WorkProcess from './components/WorkProcess';
 
 function App() {
   return (
-    <div className="flex flex-col gap-[80px] py-[30px] p-[100px]">
+    <div className="flex flex-col gap-[100px] py-[30px] p-[60px] 2xl:p-[100px]">
       <Navbar />
       <Header />
       <Companies />
@@ -32,6 +35,21 @@ function App() {
         subheading={'Step-by-Step Guide to Achieving Your Business Goals'}
         width={'less'}
       />
+      <WorkProcess />
+      <Headings
+        heading={'Team '}
+        subheading={
+          'Meet the skilled and experienced team behind our successful digital marketing strategies'
+        }
+      />
+      <Team />
+      <Headings
+        heading={'Testimonials'}
+        subheading={
+          'Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services'
+        }
+      />
+      <Testimonial />
     </div>
   );
 }
