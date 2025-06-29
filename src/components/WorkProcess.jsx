@@ -24,9 +24,13 @@ const WorkProcess = () => {
           } transition-all duration-300 cursor-pointer`}
         >
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-[20px]">
-              <h4 className="text-[60px] font-medium ">0{item.id}</h4>
-              <h5 className="text-[30px] font-medium">{item.title}</h5>
+            <div className="flex items-center lg:justify-start justify-center gap-[20px]">
+              <h4 className="lg:text-[60px] text-3xl font-medium ">
+                0{item.id}
+              </h4>
+              <h5 className="lg:text-[30px] text-lg xs:text-xl font-medium">
+                {item.title}
+              </h5>
             </div>
             <img
               src={activeIndex === index ? minus : plus}

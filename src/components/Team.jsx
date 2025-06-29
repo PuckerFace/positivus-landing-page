@@ -21,8 +21,12 @@ const Team = () => {
                 />
               </div>
               <div className="flex flex-col flex-1 justify-end">
-                <h5 className="text-[20px] font-medium ">{member.name}</h5>
-                <p className="text-[18px] font-normal">{member.position}</p>
+                <h5 className="sm:text-[20px] text-lg  font-medium ">
+                  {member.name}
+                </h5>
+                <p className="sm:text-[18px] text-sm font-normal">
+                  {member.position}
+                </p>
               </div>
               <img src={social} alt="" className="absolute right-0 top-0" />
             </div>

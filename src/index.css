@@ -6,6 +6,7 @@
   --color-neon: #b9ff66;
   --color-black-100: #191a23;
   --color-white-100: #f3f3f3;
+  --breakpoint-xs: 400px;
 }
 
 body {

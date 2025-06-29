@@ -19,11 +19,11 @@ const ServiceCards = ({
 }) => {
   return (
     <div
-      className={`2xl:w-[600px] w-[550px] p-[50px] flex justify-between items-center rounded-[45px] border border-black-100 shadow-[0px_5px_0px_#191A23] ${bgColorMap[bgColour]}`}
+      className={`lg:w-full md:w-[600px] p-10 lg:p-[50px] flex justify-between items-center rounded-[45px] border border-black-100 shadow-[0px_5px_0px_#191A23] ${bgColorMap[bgColour]}`}
     >
-      <div className="flex flex-col justify-center items-start gap-[93px]">
+      <div className="flex flex-col justify-center gap-5 items-start lg:gap-[93px]">
         <div
-          className={`text-[30px] flex flex-col    font-medium leading-normal text-black-100  `}
+          className={`lg:text-[30px] text-[20px] xs:text-[26px] flex flex-col    font-medium leading-normal text-black-100  `}
         >
           <div className={` w-fit px-2 rounded ${bgColorMap[textColour]}`}>
             {' '}
@@ -34,8 +34,13 @@ const ServiceCards = ({
             {subheading}
           </div>
         </div>
-        <div className="flex items-center gap-[15px]">
-          <img src={arrowColour === 'black' ? arrowBlack : arrowWhite} alt="" />
+
+        <div className="flex  items-end lg:items-center gap-[15px]">
+          <img
+            src={arrowColour === 'black' ? arrowBlack : arrowWhite}
+            alt=""
+            className="w-10 h-10"
+          />
           <p
             className={`text-[20px] font-normal leading-[28px] hidden md:block ${
               arrowColour === 'black' ? 'text-black-100' : 'text-white-100'
@@ -43,10 +48,22 @@ const ServiceCards = ({
           >
             Learn more
           </p>
+
+          <img
+            src={img}
+            alt=""
+            className=" w-[150px] h-[100px] object-cover  block xs:hidden  "
+            height={height}
+          />
         </div>
       </div>
-      <div>
-        <img src={img} alt="" className="shrink-0 w-[210px] " height={height} />
+      <div className="hidden xs:block">
+        <img
+          src={img}
+          alt=""
+          className=" w-full lg:w-[210px] 2xl:w-full "
+          height={height}
+        />
       </div>
     </div>
   );

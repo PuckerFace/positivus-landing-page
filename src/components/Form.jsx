@@ -5,7 +5,7 @@ const Form = () => {
   const [selectedReason, setSelectedReason] = React.useState('greet');
   return (
     <div className="gap-[40px] w-[550px] flex flex-col">
-      <div className="flex gap-[20px]">
+      <div className="flex items-center md:justify-start justify-center gap-[20px]">
         <div className="flex  gap-[10px]">
           <input
             type="radio"

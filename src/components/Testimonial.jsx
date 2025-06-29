@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TESTIMONIALS } from '../constants';
 import Bubble from '../assets/Bubble.png';
+import BubbleMobile from '../assets/BubbleMobile.png';
 import arrowRight from '../assets/arrowRight.svg';
 import arrowLeft from '../assets/arrowLeft.svg';
 import star from '../assets/star.png';
@@ -31,16 +32,17 @@ const Testimonial = () => {
       </div> */}
       <div className="flex flex-col ">
         <div className="relative">
-          <img src={Bubble} alt="" />
-          <div className="w-[500px] absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
+          <img src={Bubble} alt="" className="hidden sm:block" />
+          <img src={BubbleMobile} alt="" className="sm:hidden block" />
+          <div className="sm:w-[500px] w-[300px] flex items-center justify-center absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
             <p>{TESTIMONIALS[currentIndex].testimonial}</p>
           </div>
         </div>
-        <div className=" self-start ml-20 mt-2">
+        <div className=" self-start sm:ml-20 mt-2">
           <h5 className="text-[20px] font-medium text-neon ">
             {TESTIMONIALS[currentIndex].name}
           </h5>
-          <p className="text-[18px] font-normal">
+          <p className="text-[18px] w-[300px] text-wrap font-normal">
             {TESTIMONIALS[currentIndex].position}
           </p>
         </div>
