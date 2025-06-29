@@ -34,8 +34,10 @@ const Testimonial = () => {
         <div className="relative">
           <img src={Bubble} alt="" className="hidden sm:block" />
           <img src={BubbleMobile} alt="" className="sm:hidden block" />
-          <div className="sm:w-[500px] w-[300px] flex items-center justify-center absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
-            <p>{TESTIMONIALS[currentIndex].testimonial}</p>
+          <div className="sm:w-[500px] w-[270px] p-5 flex items-center justify-center absolute top-[45%] md:top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
+            <p className="text-[14px]">
+              {TESTIMONIALS[currentIndex].testimonial}
+            </p>
           </div>
         </div>
         <div className=" self-start sm:ml-20 mt-2">
@@ -47,7 +49,7 @@ const Testimonial = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-6 w-1/2 justify-between mt-6 items-center">
+      <div className="flex gap-6 w-full md:w-1/2 justify-between mt-6 items-center">
         <img
           src={arrowLeft}
           alt=""

@@ -35,7 +35,7 @@ const ServiceCards = ({
           </div>
         </div>
 
-        <div className="flex  items-end lg:items-center gap-[15px]">
+        <div className="flex   items-end lg:items-center gap-[70px]">
           <img
             src={arrowColour === 'black' ? arrowBlack : arrowWhite}
             alt=""
@@ -52,12 +52,12 @@ const ServiceCards = ({
           <img
             src={img}
             alt=""
-            className=" w-[150px] h-[100px] object-cover  block xs:hidden  "
+            className=" w-[150px] h-[100px] object-cover  block sm:hidden  "
             height={height}
           />
         </div>
       </div>
-      <div className="hidden xs:block">
+      <div className="hidden sm:block">
         <img
           src={img}
           alt=""
