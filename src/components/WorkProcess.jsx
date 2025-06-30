@@ -25,7 +25,7 @@ const WorkProcess = () => {
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center lg:justify-start justify-center gap-[20px]">
-              <h4 className="lg:text-[60px] text-3xl font-medium ">
+              <h4 className="lg:text-[60px] text-xl xs:text-3xl font-medium ">
                 0{item.id}
               </h4>
               <h5 className="lg:text-[30px] text-lg xs:text-xl font-medium">
@@ -37,7 +37,7 @@ const WorkProcess = () => {
               alt=""
               className={`${
                 activeIndex === index ? 'rotate-180' : ''
-              } transition-transform duration-300`}
+              } transition-transform duration-300 w-10 xs:w-[58px] `}
             />
           </div>
           {activeIndex === index && (

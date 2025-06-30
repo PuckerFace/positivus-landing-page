@@ -60,7 +60,7 @@ function App() {
         />
         <Contact />
       </div>
-      <div className="flex flex-col pt-[100px]  overflow-hidden px-0 md:px-[60px] 2xl:p-[100px]">
+      <div className="flex flex-col pt-[100px] bg-white overflow-hidden px-0 md:px-[60px] 2xl:p-[100px]">
         <Footer />
       </div>
     </>

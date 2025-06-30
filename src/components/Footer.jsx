@@ -40,7 +40,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row p-[20px] justify-center items-center gap-5 w-full md:w-3/4 xl:w-1/2 bg-[#292A32] rounded-[14px] ">
+        <div className="flex flex-col md:flex-row p-[10px] xs:p-[20px] justify-center items-center gap-5 w-full md:w-3/4 xl:w-1/2 bg-[#292A32] rounded-[14px] ">
           <div className="w-full">
             <input
               type="email"

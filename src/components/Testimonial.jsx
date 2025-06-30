@@ -31,7 +31,7 @@ const Testimonial = () => {
         <p>{TESTIMONIALS[currentIndex].testimonial}</p>
       </div> */}
       <div className="flex flex-col ">
-        <div className="relative">
+        <div className="relative p-2">
           <img src={Bubble} alt="" className="hidden sm:block" />
           <img src={BubbleMobile} alt="" className="sm:hidden block" />
           <div className="sm:w-[500px] w-[270px] p-5 flex items-center justify-center absolute top-[45%] md:top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%]  ">
