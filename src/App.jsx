@@ -14,7 +14,7 @@ import WorkProcess from './components/WorkProcess';
 function App() {
   return (
     <>
-      <div className="flex flex-col gap-[100px] pt-[30px] overflow-hidden px-[20px] md:px-[60px] 2xl:p-[100px]">
+      <div className="flex flex-col gap-[100px] pt-[30px] overflow-hidden px-[20px] md:px-[60px] 2xl:p-[100px] bg-white">
         <Navbar />
         <Header />
         <Companies />
