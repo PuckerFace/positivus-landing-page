@@ -14,7 +14,7 @@ const Contact = () => {
       <img
         src={illustration}
         alt=""
-        className="absolute self-end top-7 -right-80 hidden lg:block"
+        className="absolute self-end top-7 -right-80 hidden xl:block"
       />
     </div>
   );

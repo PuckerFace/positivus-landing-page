@@ -8,7 +8,7 @@ const CaseStudies = () => {
   return (
     <div className="flex justify-center  w-full  items-center" id="use-cases">
       {/* Mobile version */}
-      <div className="xl:hidden w-full pb-5 overflow-x-auto snap-x snap-mandatory overflow-y-hidden h-full">
+      <div className="xl:hidden w-full lg:w-1/2 pb-5 overflow-x-auto snap-x snap-mandatory overflow-y-hidden h-full">
         <div className="flex flex-nowrap gap-[20px]">
           {USE_CASES.map((item, index) => (
             <div
