@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import cta from '../assets/cta.png';
+import { Fade } from 'react-awesome-reveal';
 
 const CTA = () => {
   return (
@@ -17,7 +18,9 @@ const CTA = () => {
           <Button buttonType={'dark'} buttonText={'Get your free proposal'} />
         </div>
         <div className="z-1 absolute right-0 hidden xl:block ">
-          <img src={cta} alt="" />
+          <Fade direction="right" duration={2000} triggerOnce>
+            <img src={cta} alt="" />
+          </Fade>
         </div>
       </div>
     </div>

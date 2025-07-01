@@ -1,0 +1,28 @@
+/* Button.css */
+
+.group::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+/* Type-specific backgrounds */
+.btn-light::before {
+  background-color: #191a23;
+}
+
+.btn-neon::before {
+  background-color: #7cdb08;
+}
+
+.btn-dark::before {
+  background-color: #f3f3f3;
+}
+
+.group:hover::before {
+  transform: scaleX(1);
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './Form';
 import illustration from '../assets/Illustration.png';
+import { Fade } from 'react-awesome-reveal';
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
       className="bg-white-100 flex py-[50px] px-[30px] relative rounded-[45px] md:px-[80px] md:py-[60px] text-black-100 "
     >
       <Form />
+
       <img
         src={illustration}
         alt=""

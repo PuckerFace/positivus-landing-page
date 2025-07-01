@@ -1,13 +1,15 @@
 import React from 'react';
 import { COMPANIES } from '../constants';
-
+import Marquee from 'react-fast-marquee';
 const Companies = () => {
   return (
-    <div className="flex flex-wrap py-0 pb-[70px] justify-between grayscale items-start  ">
-      {COMPANIES.map((company, index) => (
-        <img src={company.logo} alt="" key={index} />
-      ))}
-    </div>
+    <Marquee autoFill pauseOnHover speed={80} className="w-full">
+      <div className="flex justify-between px-6 items-center lg:gap-[80px]  gap-[40px] grayscale   ">
+        {COMPANIES.map((company, index) => (
+          <img src={company.logo} alt="" key={index} />
+        ))}
+      </div>
+    </Marquee>
   );
 };
 

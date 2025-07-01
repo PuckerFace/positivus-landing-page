@@ -35,15 +35,15 @@ const ServiceCards = ({
           </div>
         </div>
 
-        <div className="flex   items-end lg:items-center gap-[70px]">
+        <div className="flex    items-end lg:items-center lg:gap-[10px] gap-[70px]">
           <img
             src={arrowColour === 'black' ? arrowBlack : arrowWhite}
             alt=""
-            className="w-10 h-10"
+            className="w-10 h-10 hover:scale-110 transition-transform duration-300 cursor-pointer"
           />
           <p
-            className={`text-[20px] font-normal leading-[28px] hidden md:block ${
-              arrowColour === 'black' ? 'text-black-100' : 'text-white-100'
+            className={`text-[20px] font-normal cursor-pointer  leading-[28px] hidden md:block ${
+              arrowColour === 'black' ? 'text-black-100 ' : 'text-white-100'
             } `}
           >
             Learn more

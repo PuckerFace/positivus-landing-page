@@ -1,0 +1,26 @@
+.focus,
+.dark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transition: 0.4s ease-in-out;
+  z-index: -1;
+}
+.dark {
+  background-color: #7cdb08;
+}
+.focus {
+  background-color: #b9ff66;
+}
+input:focus ~ .focus,
+textarea:focus ~ .focus,
+input:focus ~ .dark {
+  width: 100%;
+}
+input:hover ~ .focus,
+textarea:hover ~ .focus,
+input:hover ~ .dark {
+  width: 100%;
+}

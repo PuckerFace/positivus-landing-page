@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import '../styles/Form.css';
 
 const Form = () => {
   const [selectedReason, setSelectedReason] = React.useState('greet');
@@ -61,33 +62,42 @@ const Form = () => {
           </label>
         </div>
       </div>
-      <div className="flex flex-col gap-[25px]">
+      <div className="flex flex-col gap-[25px] relative ">
         <div>
           <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            className="w-full border border-black rounded-[14px] p-[18px] text-[18px] font-normal leading-normal text-black-100"
-            placeholder="Name"
-          />
+          <div className="relative border-[1.5px] border-black-100 rounded-[14px] z-1">
+            <input
+              type="text"
+              id="name"
+              className="w-full  rounded-[14px] p-[18px] text-[18px] font-normal leading-normal text-black-100 outline-0 "
+              placeholder="Name"
+            />
+            <span className="focus rounded-[14px]"></span>
+          </div>
         </div>
         <div>
           <label htmlFor="email">Email*</label>
-          <input
-            type="email"
-            id="email"
-            className="w-full border border-black rounded-[14px] p-[18px] text-[18px] font-normal leading-normal text-black-100"
-            placeholder="Email"
-          />
+          <div className="relative border-[1.5px] border-black-100 rounded-[14px] z-1">
+            <input
+              type="email"
+              id="email"
+              className="w-full  rounded-[14px] p-[18px] text-[18px] font-normal leading-normal text-black-100 outline-0 "
+              placeholder="Email"
+            />
+            <span className="focus rounded-[14px]"></span>
+          </div>
         </div>
         <div>
           <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            className="w-full border border-black rounded-[14px] p-[18px] text-[18px] font-normal leading-normal text-black-100"
-            placeholder="Message "
-            rows="4"
-          ></textarea>
+          <div className="relative border-[1.5px] border-black-100 rounded-[14px] z-1">
+            <textarea
+              id="message"
+              className="w-full  rounded-[14px] p-[18px] text-[18px] font-normal outline-0 leading-normal text-black-100 resize-none"
+              placeholder="Message "
+              rows="4"
+            ></textarea>
+            <span className="focus rounded-[14px]"></span>
+          </div>
         </div>
       </div>
       <Button buttonText={'Send Message'} buttonType={'dark'} />
