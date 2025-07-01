@@ -7,8 +7,22 @@
   --color-black-100: #191a23;
   --color-white-100: #f3f3f3;
   --breakpoint-xs: 400px;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-float-mobile: float 2s ease-in-out infinite;
 }
 
 body {
   font-family: 'Space Grotesk', sans-serif;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the float distance */
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

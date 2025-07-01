@@ -12,7 +12,11 @@ const Header = () => {
             Navigating the digital landscape for success
           </div>
           <div className="lg:w-full w-[300px]  lg:hidden flex justify-center">
-            <img src={megaphone} alt="" />
+            <img
+              src={megaphone}
+              alt=""
+              className="w-full h-full object-contain  animate-float "
+            />
           </div>
           <div className="text-[20px] mb-2 font-normal leading-[28px] w-full md:w-[498px]">
             Our digital marketing agency helps businesses grow and succeed
@@ -32,7 +36,7 @@ const Header = () => {
           <img
             src={megaphone}
             alt=""
-            className="w-full h-full min-h-[450px] object-contain max-h-[600px] "
+            className="w-full h-full min-h-[450px] object-contain max-h-[600px] animate-float "
           />
         </Fade>
       </div>
