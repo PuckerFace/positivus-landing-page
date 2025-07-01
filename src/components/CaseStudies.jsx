@@ -52,8 +52,6 @@ const CaseStudies = () => {
                   />
                 </div>
               </div>
-
-              {/* {index !== USE_CASES.length - 1 && <img src={line} alt="" />} */}
             </Fade>
           </React.Fragment>
         ))}

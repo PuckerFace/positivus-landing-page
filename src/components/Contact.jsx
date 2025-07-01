@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from './Form';
 import illustration from '../assets/Illustration.png';
-import { Fade } from 'react-awesome-reveal';
 
 const Contact = () => {
   return (

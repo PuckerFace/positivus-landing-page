@@ -8,9 +8,7 @@
   transition: transform 0.4s ease-out;
   z-index: 0;
 }
-/* .bg-fill::before {
-  transform: scaleX(1);
-} */
+
 .bg-fill.active::before {
   transform: scaleY(1);
 }

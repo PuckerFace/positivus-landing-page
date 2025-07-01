@@ -26,32 +26,6 @@ const Services = () => {
         </Fade>
       </div>
     </div>
-    // <div className="py-0 2xl:px-[100px] px-[20px] 2xl:gap-[40px] justify-center items-center w-screen grid lg:grid-cols-2">
-    //   <ServiceCards
-    //     bgColour="white-100"
-    //     heading={'Search engine '}
-    //     subheading={'optimization'}
-    //     textColour="neon"
-    //     arrowColour={'black'}
-    //     img={search}
-    //   />
-    //   <ServiceCards
-    //     bgColour="white-100"
-    //     heading={'Search engine '}
-    //     subheading={'optimization'}
-    //     textColour="neon"
-    //     arrowColour={'black'}
-    //     img={search}
-    //   />
-    //   <ServiceCards
-    //     bgColour="white-100"
-    //     heading={'Search engine '}
-    //     subheading={'optimization'}
-    //     textColour="neon"
-    //     arrowColour={'black'}
-    //     img={search}
-    //   />
-    // </div>
   );
 };
 

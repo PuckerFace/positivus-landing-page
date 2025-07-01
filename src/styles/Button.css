@@ -1,5 +1,3 @@
-/* Button.css */
-
 .group::before {
   content: '';
   position: absolute;
@@ -10,7 +8,6 @@
   z-index: 0;
 }
 
-/* Type-specific backgrounds */
 .btn-light::before {
   background-color: #191a23;
 }
